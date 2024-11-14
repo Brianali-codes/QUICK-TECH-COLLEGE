@@ -4,22 +4,16 @@ import IMG2 from './assets/LANGS.jpg'
 export default function About(){
 
     return( 
-        <div className="p-5">
-            <p className='text-center font-bold'>Some Services we Offer include.</p>
+        <div className="p-10 bg-orange-500" id="ABTBG">
+            <br /><br /><br /><br />
+            <p className='text-center font-bold text-4xl text-black' id="ABTHEADING">QUICK TECH COLLEGE EMPOWERS ME TO BE ME</p>
+            <br />
             <div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus excepturi unde fugit quisquam, non repellendus temporibus omnis expedita nisi necessitatibus laudantium amet esse, incidunt repellat ab in architecto, odit minima!Lorem Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem possimus eos numquam, fuga temporibus laborum error nostrum expedita, vel, reprehenderit eligendi minima fugiat culpa architecto soluta deserunt sint earum cupiditate?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat veniam repudiandae numquam quo modi voluptas aliquam voluptatem a magni libero. Quo assumenda omnis soluta eos incidunt quibusdam molestias, quas nam.</p>
-
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta eum accusamus, architecto quos voluptates ullam omnis libero minima perferendis possimus, quas eaque labore maxime quod? At culpa eligendi asperiores velit?
-                Expedita architecto ducimus quibusdam quis excepturi pariatur perferendis facilis voluptatibus dolor est! Quidem voluptate id ducimus, quis sequi voluptatum ea nostrum exercitationem distinctio commodi eaque corporis, facere obcaecati quas dolores?
-                Illo corporis quod recusandae fugiat neque aperiam rerum sequi odio adipisci facilis vero non id aut, voluptatem quibusdam ipsa necessitatibus culpa minus maiores veniam. Earum repudiandae optio accusantium veritatis impedit.</p>
-
-            </div>
-
-            <div id="ABTCARDS">
-                
-                
+                <p className="text-ellipsis text-center" id="DESC">At Quick Tech Computer College, you’ll get personalized support from start to finish. You’ll cultivate the skills you need for success. And you’ll develop the confidence that will get you ready to thrive as a person and a professional. Here, you’ll find a welcoming and a diverse community that values you for who you are and who you want to become.</p>
             </div>
             <br />
+            <br />
+            <br /><br /><br />
         </div>
     )
 

@@ -10,7 +10,7 @@ import { faBars } from '@fortawesome/free-solid-svg-icons';
 export default function Navbar(){
     return(
         <>
-            <div className="flex flex-row justify-between p-4 shadow-lg NAV items-center">
+            <div className="flex flex-row justify-between p-4 shadow-lg NAV items-center bg-orange-400">
                 <div>
                     <img src={LG} alt="LOGO" />
                 </div>
