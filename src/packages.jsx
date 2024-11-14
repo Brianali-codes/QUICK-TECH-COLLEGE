@@ -7,8 +7,14 @@ import './App.css'
 
 export default function Packages(){
         return(
+
+            <>
+            <div>
+                <p className='text-center font-bold'>Some Services we Offer include.</p>
+            </div>
+            <br />
             <div className="h-fit justify-center items-center gap-5" id='packages'>
-                 <Card style={{ width: '18rem' , height:'430px',}} h>
+                 <Card style={{ width: '20rem' , height:'430px',}} h>
                     <Card.Img variant="top" src={IMG1} />
                     <Card.Body>
                         <Card.Title>Computer Packages</Card.Title>
@@ -19,7 +25,7 @@ export default function Packages(){
                     </Card.Body>
                 </Card>
 
-                <Card style={{ width: '18rem' , height:'430px', }}>
+                <Card style={{ width: '20rem' , height:'430px', }}>
                     <Card.Img variant="top" src={IMG2} />
                     <Card.Body>
                         <Card.Title>Programming Languages</Card.Title>
@@ -30,7 +36,7 @@ export default function Packages(){
                     </Card.Body>
                 </Card>
 
-                <Card style={{ width: '18rem', height:'430px', }}>
+                <Card style={{ width: '20rem', height:'430px', }}>
                     <Card.Img variant="top" src={IMG3} />
                     <Card.Body>
                         <Card.Title>More Services</Card.Title>
@@ -42,5 +48,8 @@ export default function Packages(){
                 </Card>
                 
             </div>
+            
+            </>
+            
         )
 }   

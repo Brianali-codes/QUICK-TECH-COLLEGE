@@ -13,6 +13,33 @@
   display: flex;
   flex-direction: row;
 }
+#ABTCARDS{
+  flex-direction: row;
+  display: flex;
+  gap: 20px;
+}
+#ButtonContainer{
+  display: flex;
+  flex-direction: row;
+  gap: 28px;
+  font-weight: 500
+}
+
+#MainBg{
+  background-image: url(assets/CS.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+}
+#GlassmorphismBg{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to right, rgb(230, 230, 230), transparent);
+}
+#Menu{
+  display: none;
+}
+
 @media (max-width: 768px) {
   #packages {
     display: flex;
@@ -22,16 +49,15 @@
     display: flex;
     flex-direction: column; 
   }
-}
-#MainBg{
-  background-image: url(assets/CS.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: fit-content;
-}
-#GlassmorphismBg{
-    display: flex;
+  #ABTCARDS{
     flex-direction: column;
-    background: linear-gradient(to right, white, transparent);
+  }
+  #ButtonContainer{
+    display: none;
+  }
+  #Menu{
+    display: flex;
+    font-size: 30px;
+  }
 }
 

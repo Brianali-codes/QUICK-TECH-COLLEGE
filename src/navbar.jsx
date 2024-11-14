@@ -3,15 +3,18 @@ import LG from './assets/LOGO.svg'
 import Dropdown from 'react-bootstrap/Dropdown';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Button } from 'react-bootstrap';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
+
 
 export default function Navbar(){
     return(
         <>
-            <div className="flex flex-row justify-between p-4 shadow-lg NAV">
+            <div className="flex flex-row justify-between p-4 shadow-lg NAV items-center">
                 <div>
                     <img src={LG} alt="LOGO" />
                 </div>
-                <div className="flex flex-row gap-7 font-medium">
+                <div id='ButtonContainer'>
                     <Button variant="">Home</Button>
                     <Dropdown>
                         <Dropdown.Toggle variant="secondary" id="dropdown-basic">
@@ -27,6 +30,10 @@ export default function Navbar(){
                     <Button variant="">Faqs</Button>
                     <Button variant="">Contacts</Button>
                 </div>
+
+                
+                <FontAwesomeIcon icon={faBars} size='1x' id='Menu'/>
+                
                 
                 
             </div>
