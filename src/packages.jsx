@@ -13,7 +13,7 @@ export default function Packages(){
                     <Card.Body>
                         <Card.Title>Computer Packages</Card.Title>
                         <Card.Text>
-                            At QuickTech we offer different Packages to view all Packages Click the button below.
+                            At QuickTech we offer different Packages, to view all Packages Click the button below.
                         </Card.Text>
                         <Button variant="secondary">Explore Packages.</Button>
                     </Card.Body>

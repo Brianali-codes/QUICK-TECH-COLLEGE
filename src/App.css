@@ -23,3 +23,15 @@
     flex-direction: column; 
   }
 }
+#MainBg{
+  background-image: url(assets/CS.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: fit-content;
+}
+#GlassmorphismBg{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to right, white, transparent);
+}
+
