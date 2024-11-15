@@ -5,6 +5,7 @@ import Hero from './hero'
 import Packages from './packages'
 import Faqs from './faqs'
 import About from './about'
+import Quote from './quote'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <About/>
       <br />
       <Packages/>
+      <Quote/>
       <br />
       <Faqs/>
       <br /><br />

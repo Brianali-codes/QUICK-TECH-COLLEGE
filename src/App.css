@@ -7,16 +7,34 @@
   backdrop-filter: blur(10px);
 }
 #ABTHEADING{
-  font-family: "Rubik", sans-serif;
+  font-family: "Kanit", sans-serif;
 }
 #DESC{
-  font-family: "Rubik", sans-serif;
+  font-family: "Kanit", sans-serif;
   font-size: 20px;
 }
-#ABTBG{
-  background-image: url(assets/bg1.jpg);
+.Desc{
+  font-family: "Kanit", sans-serif;
+
+}
+.NAVBAR{
+  background-color: orange;
+}
+#Quote{
+  background-image: url(assets/quote.png);
   background-size: contain;
-  height: 50vh;
+  height: 60vh;
+  background-repeat: no-repeat;
+}
+#ABTBG{
+  background-image: url(assets/bg1.png);
+  background-size: contain;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
 }
 #footerInfo{
   display: flex;
@@ -25,6 +43,7 @@
 #packages {
   display: flex;
   flex-direction: row;
+  height: 70vh;
 }
 #ABTCARDS{
   flex-direction: row;
@@ -42,7 +61,7 @@
   background-image: url(assets/CS.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 85vh;
+  height: 70vh;
 }
 #GlassmorphismBg{
     display: flex;
@@ -51,6 +70,15 @@
 }
 #Menu{
   display: none;
+}
+
+.Cards:hover{
+  transform: translateY(-10px);
+  transition: 0.6s;
+  cursor: pointer;
+}
+.Cards{
+  transition:0.5s;
 }
 
 @media (max-width: 768px) {
