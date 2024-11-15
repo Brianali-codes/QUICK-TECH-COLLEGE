@@ -28,12 +28,14 @@
 }
 #ABTBG{
   background-image: url(assets/bg1.png);
-  background-size: contain;
-  height: 60vh;
+  background-size: cover;
+  padding: 70px;
+  height: fit-content;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-repeat: no-repeat;
 
 }
 #footerInfo{
@@ -43,7 +45,10 @@
 #packages {
   display: flex;
   flex-direction: row;
-  height: 70vh;
+  height: fit-content;
+}
+.Steve{
+  width: 100%;
 }
 #ABTCARDS{
   flex-direction: row;
@@ -61,12 +66,13 @@
   background-image: url(assets/CS.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 70vh;
+  height: fit-content;
 }
 #GlassmorphismBg{
     display: flex;
     flex-direction: column;
     background: linear-gradient(to right, rgb(230, 230, 230), transparent);
+    height: 100%;
 }
 #Menu{
   display: none;
@@ -86,6 +92,15 @@
     display: flex;
     flex-direction: column;
   }
+  #MainBg{
+    height: fit-content;
+  }
+  #ABTBG{
+    padding: 30px;
+  }
+  #Steve{
+    width: 70%;
+  }
   #footerInfo {
     display: flex;
     flex-direction: column; 
@@ -100,5 +115,34 @@
     display: flex;
     font-size: 30px;
   }
+  #NAVBAR{
+    width: 100%;
+  }
+  #HomeText{
+    font-size: 35px;
+  }
+  #HText2{
+    font-size: 20px;
+  }
+  #HomeBtns{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+  .Btns{
+    font-size: 12px;
+    height: 50px;
+    width: 130px;
+  }
+  
+
 }
+.Btns{
+  background-color: orange;
+  border-radius: 5px;
+  padding: 1px;
+  font-size: 15px;
+  height: 50px;
+  width: 150px;
+}
+
 

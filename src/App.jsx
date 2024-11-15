@@ -16,6 +16,7 @@ function App() {
       <About/>
       <br />
       <Packages/>
+      <br />
       <Quote/>
       <br />
       <Faqs/>
