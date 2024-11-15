@@ -1,5 +1,5 @@
 import './App.css'
-import IMG from './assets/Quote.png'
+import IMG from './assets/quote.png'
 
 export default function Quote(){
     return(
