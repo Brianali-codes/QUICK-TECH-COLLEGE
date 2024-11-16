@@ -45,7 +45,7 @@
 #packages {
   display: flex;
   flex-direction: row;
-  height: 90vh;
+  height: fit-content;
 }
 .Steve{
   width: 100%;
@@ -67,6 +67,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   height: fit-content;
+  width: fit-content;
 }
 #GlassmorphismBg{
     display: flex;
@@ -86,10 +87,33 @@
 .Cards{
   transition:0.5s;
 }
+#VideoContainer{
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  padding: 12px;
+  justify-content: center;
+  align-items: center;
+}
+.Player{
+  width: 450px;
+  height: 300px;
+  border-radius: 10px;
+}
+.video-section{
+  height: fit-content;
 
+}
 @media (max-width: 768px) {
   #packages {
     display: flex;
+    flex-direction: column;
+  }
+  .Player{
+    width: 100%;
+    height: 200px;
+  }
+  #VideoContainer{
     flex-direction: column;
   }
   #MainBg{
@@ -116,7 +140,7 @@
     font-size: 30px;
   }
   #NAVBAR{
-    width: 100%;
+    width: 90%;
   }
   #HomeText{
     font-size: 35px;
