@@ -6,6 +6,7 @@ import Packages from './packages'
 import Faqs from './faqs'
 import About from './about'
 import Quote from './quote'
+import Sources from './sources'
 
 function App() {
   return (
@@ -18,6 +19,8 @@ function App() {
       <Packages/>
       <br />
       <Quote/>
+      <br />
+      <Sources/>
       <br />
       <Faqs/>
       <br /><br />

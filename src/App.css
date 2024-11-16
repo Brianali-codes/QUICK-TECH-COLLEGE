@@ -45,7 +45,7 @@
 #packages {
   display: flex;
   flex-direction: row;
-  height: fit-content;
+  height: 90vh;
 }
 .Steve{
   width: 100%;
