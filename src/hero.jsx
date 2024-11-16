@@ -3,7 +3,7 @@ import { Button } from 'react-bootstrap'
 export default function Hero(){
         return(
             <div className="flex justify-center items-center" id='MainBg'>
-                <div id='GlassmorphismBg' className='p-4'>
+                <div id='GlassmorphismBg' className='p-3'>
                     <br /><br /><br /><br /><br /><br /><br />
                     <div className='h-fit text-center justify-center flex flex-col items-center'>
                         <p className=' text-6xl font-bold text-orange-500 Desc' id='HomeText'>QUICK TECH COMPUTER COLLEGE.</p>
