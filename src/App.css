@@ -67,7 +67,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   height: fit-content;
-  width: fit-content;
+  width: 100%;
 }
 #GlassmorphismBg{
     display: flex;
@@ -140,7 +140,7 @@
     font-size: 30px;
   }
   #NAVBAR{
-    width: 90%;
+    width: 100%;
   }
   #HomeText{
     font-size: 35px;

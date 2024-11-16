@@ -3,9 +3,9 @@ import { Button } from 'react-bootstrap'
 export default function Hero(){
         return(
             <div className="flex justify-center items-center" id='MainBg'>
-                <div id='GlassmorphismBg' className='p-5'>
+                <div id='GlassmorphismBg' className='p-4'>
                     <br /><br /><br /><br /><br /><br /><br />
-                    <div className='w-full h-fit text-center justify-center flex flex-col items-center'>
+                    <div className='h-fit text-center justify-center flex flex-col items-center'>
                         <p className=' text-6xl font-bold text-orange-500 Desc' id='HomeText'>QUICK TECH COMPUTER COLLEGE.</p>
                         <br />
                         <p className='text-black text-xl Desc' id='HText2'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur minus blanditiis harum, voluptatibus consequuntur laboriosam optio quaerat deleniti ea consequatur corporis accusamus quae nemo nisi vero dignissimos amet nihil inventore?Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, est sint. At ratione veritatis eligendi corrupti iusto voluptas et animi quibusdam voluptate totam ipsum, tempore maiores doloribus nobis sed ipsa.</p>
