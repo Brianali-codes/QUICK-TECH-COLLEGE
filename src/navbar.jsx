@@ -21,6 +21,14 @@ export default function Navbar(){
         }
     }
     
+    const scrollToSection = (sectionId) => {
+        const section = document.getElementById(sectionId);
+        if (section) {
+          section.scrollIntoView({ behavior: "smooth" }); // This will add Smooth scrolling effect instead of going to css.
+        }
+      };
+
+
     return(
         <>
             <div id='NAVBAR' className='flex'>
@@ -28,20 +36,20 @@ export default function Navbar(){
                     <img src={LG} alt="LOGO" />
                 </div>
                 <div id='ButtonContainer'>
-                    <Button variant="">Home</Button>
+                    <Button variant="" onClick={() => scrollToSection("MainBg")}>Home</Button>
                     <Dropdown>
                         <Dropdown.Toggle variant="secondary" id="dropdown-basic">
                             Services
                         </Dropdown.Toggle>
                         <Dropdown.Menu>
-                            <Dropdown.Item href="#/action-1">Packages</Dropdown.Item>
+                            <Dropdown.Item onClick={() => scrollToSection("PKGS")}>Packages</Dropdown.Item>
                             <Dropdown.Item href="#/action-2">Programming</Dropdown.Item>
                             <Dropdown.Item href="#/action-3">Consultation</Dropdown.Item>
                         </Dropdown.Menu>
                     </Dropdown>
-                    <Button variant="">About</Button>
-                    <Button variant="">Faqs</Button>
-                    <Button variant="">Contacts</Button>
+                    <Button variant="" onClick={() => scrollToSection("MainBg")}>About</Button>
+                    <Button variant="" onClick={() => scrollToSection("MainBg")}>Faqs</Button>
+                    <Button variant="" onClick={() => scrollToSection("MainBg")}>Contacts</Button>
                 </div>                
                 <FontAwesomeIcon icon={faBars} size='1x' id='Menu' onClick={checkCollapsed}/>
                 
