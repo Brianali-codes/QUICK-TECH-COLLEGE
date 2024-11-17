@@ -71,8 +71,13 @@ export default function Packages(){
                 </motion.div>
                 
             </div>
+            <br />
             
-            </>
+            <div className='p-5'>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, ipsum. Quasi voluptates in corrupti dignissimos ducimus expedita maiores repellendus sunt porro alias, laborum quas, soluta a illo necessitatibus magni doloribus! Blanditiis aliquam praesentium iste sed quod provident veniam omnis debitis excepturi mollitia similique hic non, temporibus repellat! Incidunt vitae quod non natus!</p>
+            </div>
+           
+           </>
             
         )
 }   

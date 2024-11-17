@@ -6,6 +6,8 @@ export default function Sources(){
         <section className="video-section p-5">
             <h3 className="Desc text-center">Some Sources to get you started</h3>
             <br />
+            <p>For complete Beginners we recommend this videos in order to familiarize yourself with basic knowledge about computers in a whole. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius eaque ipsa adipisci laborum laudantium aspernatur incidunt? Sapiente, sit ut. Tempora dolores adipisci tenetur blanditiis quod earum aliquid modi sint doloribus?</p>
+            <br />
 
             <div id="VideoContainer">
                 <div className="video-wrapper">
