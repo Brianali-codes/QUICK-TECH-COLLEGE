@@ -42,13 +42,13 @@
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 #Quote{
-  background-image: url(assets/quote.png);
+  background-image: url(assets/quote.webp);
   background-size: contain;
   height: 60vh;
   background-repeat: no-repeat;
 }
 #ABTBG{
-  background-image: url(assets/bg1.png);
+  background-image: url(assets/bg1.webp);
   background-size: cover;
   padding: 70px;
   height: fit-content;
@@ -84,7 +84,7 @@
 }
 
 #MainBg{
-  background-image: url(assets/CS.jpg);
+  background-image: url(assets/CS.webp);
   background-repeat: no-repeat;
   background-size: cover;
   height: fit-content;

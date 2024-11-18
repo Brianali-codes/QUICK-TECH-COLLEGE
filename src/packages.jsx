@@ -1,8 +1,8 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import IMG1 from './assets/PKG.jpg'
-import IMG2 from './assets/LANGS.jpg'
-import IMG3 from './assets/IMG3.jpg'
+import IMG1 from './assets/PKG.webp'
+import IMG2 from './assets/LANGS.webp'
+import IMG3 from './assets/IMG3.webp'
 import { motion } from 'framer-motion';
 import './App.css'
 
