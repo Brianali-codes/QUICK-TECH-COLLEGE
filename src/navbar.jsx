@@ -60,20 +60,20 @@ export default function Navbar(){
             <div className={collapsed} id='sidebar' >
 
                     <div className='flex flex-col'>
-                        <Button variant="" onClick={checkCollapsed}>Home</Button>
+                        <Button variant="" onClick={() => {scrollToSection("MainBg");checkCollapsed()}}>Home</Button>
                         <Dropdown>
                             <Dropdown.Toggle variant="secondary" id="dropdown-basic">
                                 Services
                             </Dropdown.Toggle>
                             <Dropdown.Menu>
-                                <Dropdown.Item href="#/action-1">Packages</Dropdown.Item>
-                                <Dropdown.Item href="#/action-2">Programming</Dropdown.Item>
-                                <Dropdown.Item href="#/action-3">Consultation</Dropdown.Item>
+                                <Link to="/packages"><Button variant=''>Packages</Button></Link>
+                                <Link to="/programming"><Button variant=''>Programming</Button></Link>
+                                <Link to="/consultation"><Button variant=''>Consultation</Button></Link> 
                             </Dropdown.Menu>
                         </Dropdown>
-                        <Button variant="" onClick={checkCollapsed}>About</Button>
-                        <Button variant="" onClick={checkCollapsed}>Faqs</Button>
-                        <Button variant="" onClick={checkCollapsed}>Contacts</Button>
+                        <Button variant="" onClick={() => {scrollToSection("ABTUS");checkCollapsed()}}>About</Button>
+                        <Button variant="" onClick={() => {scrollToSection("FAQ");checkCollapsed()}}>Faqs</Button>
+                        <Link to="/contact"><Button variant="" className='text-black'>Contacts</Button></Link>
                     </div>
 
                 </div>
