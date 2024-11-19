@@ -1,7 +1,6 @@
 import { Button } from 'react-bootstrap'
 import { Card } from 'react-bootstrap'
 import { motion } from 'framer-motion';
-import { Link } from 'react-router-dom';
 import FED from '../assets/frontend.webp'
 import BED from '../assets/backend.webp'
 import UIX from '../assets/UIUX.webp'
@@ -17,6 +16,7 @@ import MOB from '../assets/Mob.webp'
 import PTN from '../assets/python.webp'
 import CSS from '../assets/css.webp'
 import Nav2 from'../nav2.jsx'
+import Footer from '../footer.jsx';
 
 
 
@@ -338,7 +338,7 @@ export default function Programs(){
                         </motion.div>
                 </div>
             </div>
-           
+            <Footer/>
         </>
     )
 }

@@ -5,8 +5,8 @@ import Publisher from '../assets/microsoft-publisher.webp'
 import Powerpoint from '../assets/powerpoint.webp'
 import { Button, Card } from 'react-bootstrap'
 import { motion } from 'framer-motion';
-import { Link } from 'react-router-dom'
 import Nav2 from'../nav2.jsx'
+import Footer from '../footer.jsx'
 
 export default function Package(){
     return(
@@ -122,6 +122,7 @@ export default function Package(){
                     
                 </div>
             </div>
+            <Footer/>
         </>
     )
 }

@@ -17,7 +17,7 @@ export default function Hero(){
                     <div className='h-fit text-center justify-center flex flex-col items-center'>
                         <p className=' text-6xl font-bold Desc' id='HomeText'>QUICK-TECH COMPUTER COLLEGE.</p>
                         <br />
-                        <p className='text-black text-xl Desc' id='HText2'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur minus blanditiis harum, voluptatibus consequuntur laboriosam optio quaerat deleniti ea consequatur corporis accusamus quae nemo nisi vero dignissimos amet nihil inventore?Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, est sint. At ratione veritatis eligendi corrupti iusto voluptas et animi quibusdam voluptate totam ipsum, tempore maiores doloribus nobis sed ipsa.</p>
+                        <p className='text-black text-xl Desc' id='HText2'>Welcome to Quick-Tech College! We specialize in empowering students with the skills they need to thrive in today’s tech-driven world. From mastering cutting-edge cyber programming languages to gaining proficiency in essential computer packages, our courses are designed to prepare you for success in the digital age. Join us and take the first step towards a brighter, tech-savvy future!</p>
                         <br />
                         <div className='gap-3 flex flex-row justify-center items-center' id='HomeBtns'>
                             <button className='Btns' onClick={() => scrollToSection("PKGS")}>Explore Courses</button>

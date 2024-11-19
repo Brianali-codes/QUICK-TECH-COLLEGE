@@ -13,7 +13,13 @@ export default function Packages(){
             <>
             <div className='p-5' id='PKGS'>
                 <p className='text-center font-bold text-xl'>Some Services we Offer include.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, ipsum. Quasi voluptates in corrupti dignissimos ducimus expedita maiores repellendus sunt porro alias, laborum quas, soluta a illo necessitatibus magni doloribus! Blanditiis aliquam praesentium iste sed quod provident veniam omnis debitis excepturi mollitia similique hic non, temporibus repellat! Incidunt vitae quod non natus!</p>
+                <p className='Desc'>Our Services
+At Quick-Tech College, we offer a range of courses designed to build your tech skills:
+
+Web Development: Master HTML, CSS, and JavaScript to create stunning websites.
+<li className='Desc'>Programming Languages: Learn Python and other in-demand languages for coding and automation.</li>
+<li className='Desc'>Computer Packages: Gain proficiency in essential software tools like Microsoft Office and more.</li>
+Take A look Below.</p>
             </div>
             <div className="flex justify-center items-center gap-5" id='packages'>
                 <motion.div
@@ -75,7 +81,7 @@ export default function Packages(){
             <br />
             
             <div className='p-5'>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, ipsum. Quasi voluptates in corrupti dignissimos ducimus expedita maiores repellendus sunt porro alias, laborum quas, soluta a illo necessitatibus magni doloribus! Blanditiis aliquam praesentium iste sed quod provident veniam omnis debitis excepturi mollitia similique hic non, temporibus repellat! Incidunt vitae quod non natus!</p>
+                <p className='Desc'>Take the next step in your tech journey with us and unlock a world of opportunities. Whether you're looking to build dynamic websites, master versatile programming languages, or enhance your computer skills with essential packages, our courses are tailored to help you achieve your goals and thrive in the ever-evolving tech industry."</p>
             </div>
            
            </>

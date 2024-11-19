@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { faFacebook } from '@fortawesome/free-brands-svg-icons';
-import LG from './assets/LOGO.svg'
+import LG from './assets/zzz.png'
 import './App.css';
 import { Link } from 'react-router-dom';
 
@@ -20,7 +20,7 @@ export default function Footer(){
             <hr />
             <div className="flex flex-row justify-between text-black p-3 m-3">
                 <div>
-                    <img src={LG} alt="LOGO" />
+                    <img src={LG} alt="LOGO" className='Logo' />
                 </div>
                 <div className='gap-3 flex flex-row'>
                     <FontAwesomeIcon icon={faInstagram} size="2x" className='hover:text-orange-500 cursor-pointer'/>

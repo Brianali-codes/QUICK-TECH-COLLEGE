@@ -11,8 +11,35 @@
   font-family: "Kanit", sans-serif;
 
 }
+.display{
+  width:60vw;
+  border-radius: 10px;
+  height: 70px;
+}
+.display2{
+  width:60vw;
+  border-radius: 10px;
+  height: 150px;
+}
+
+.BTNsend{
+  width: 60vw;
+  border:solid 1px black;
+  height: 70px;
+  border-radius: 10px;
+  transition: 0.6s;
+}
+.BTNsend:hover{
+  background-color: #e6a36f;
+  transition: 0.6s;
+}
+
+.Logo{
+  width: 150px;
+  height: fit-content;
+}
 #NAVBAR{
-  background-color: gold;
+  background-color: #fefce2;
   flex-direction: row;
   justify-content: space-between;
   padding: 1rem /* 16px */;
@@ -26,7 +53,7 @@
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 #NAV2{
-  background-color: gold;
+  background-color: #fefce2;
   flex-direction: row;
   justify-content: space-between;
   padding: 1rem /* 16px */;
@@ -42,7 +69,7 @@
 }
 
 #sidebar{
-  background-color: gold;
+  background-color: #fefce2;
   position: fixed;
   top: 0;
   bottom: 1;
@@ -136,7 +163,7 @@
 .Player{
   width: 450px;
   height: 300px;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 .video-section{
   height: fit-content;

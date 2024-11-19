@@ -1,5 +1,5 @@
 
-import LG from './assets/LOGO.svg'
+import LG from './assets/zzz.png'
 import Dropdown from 'react-bootstrap/Dropdown';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Button } from 'react-bootstrap';
@@ -33,7 +33,7 @@ export default function Navbar(){
         <>
             <div id='NAVBAR' className='flex'>
                 <div>
-                    <img src={LG} alt="LOGO" />
+                    <img src={LG} alt="LOGO" className='Logo'/>
                 </div>
                 <div id='ButtonContainer'>
                     <Button variant="" onClick={() => scrollToSection("MainBg")}>Home</Button>

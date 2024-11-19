@@ -6,7 +6,7 @@ export default function Sources(){
         <section className="video-section p-5">
             <h3 className="Desc text-center">Some Sources to get you started</h3>
             <br />
-            <p>For complete Beginners we recommend this videos in order to familiarize yourself with basic knowledge about computers in a whole. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius eaque ipsa adipisci laborum laudantium aspernatur incidunt? Sapiente, sit ut. Tempora dolores adipisci tenetur blanditiis quod earum aliquid modi sint doloribus?</p>
+            <p className='Desc'>Begin your learning journey with our curated videos designed to introduce you to the world of computers. The first video covers the fundamentals of computer basics, including how hardware and software work together to perform everyday tasks. The second video focuses on mastering essential computer packages, offering practical guidance on tools like Microsoft Office to boost your productivity and professional skills. These resources provide the perfect starting point for building your tech expertise.</p>
             <br />
 
             <div id="VideoContainer">
@@ -34,7 +34,7 @@ export default function Sources(){
             </div>
             <br /><br />
             <div>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati accusamus quidem numquam, veritatis, debitis natus ratione itaque sit ipsa aperiam eligendi porro fugiat consequatur recusandae delectus autem amet modi fugit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi tempore et ex illum nihil quis dolore magni iste, provident enim ullam autem amet? Odio, doloribus iure delectus excepturi esse itaque.Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam nesciunt aut cumque, mollitia temporibus rem dolorem culpa perferendis inventore cum ab, consectetur unde eaque laboriosam aperiam impedit quibusdam eius minus.</p>
+                <p className='Desc'>At Quick-Tech College, we pledge to support you along the way. help you Keep exploring, learning, and remember – the future is yours to shape!</p>
             </div>
            
         </section>
