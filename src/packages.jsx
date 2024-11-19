@@ -5,6 +5,7 @@ import IMG2 from './assets/LANGS.webp'
 import IMG3 from './assets/IMG3.webp'
 import { motion } from 'framer-motion';
 import './App.css'
+import { Link } from 'react-router-dom';
 
 export default function Packages(){
         return(
@@ -28,7 +29,7 @@ export default function Packages(){
                             <Card.Text className='Desc'>
                                 At QuickTech we offer different Packages, to view all Packages Click the button below.
                             </Card.Text>
-                            <Button variant="dark" className='Desc'>Explore Packages.</Button>
+                            <Link to="/packages"><Button variant="dark" className='Desc'>Explore Packages.</Button></Link>
                         </Card.Body>
                     </Card>
                 </motion.div>
@@ -46,7 +47,7 @@ export default function Packages(){
                             <Card.Text className='Desc'>
                                 We help you find the right language for you and then equip you with the skills needed.
                             </Card.Text>
-                            <Button variant="primary" className='Desc'>Explore Languages.</Button>
+                            <Link to="/programming"><Button variant="primary" className='Desc'>Explore Languages.</Button></Link>
                         </Card.Body>
                     </Card>
                 </motion.div>

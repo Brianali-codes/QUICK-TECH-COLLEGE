@@ -12,7 +12,7 @@
 
 }
 #NAVBAR{
-  background-color: orange;
+  background-color: gold;
   flex-direction: row;
   justify-content: space-between;
   padding: 1rem /* 16px */;
@@ -26,7 +26,7 @@
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 #sidebar{
-  background-color: orange;
+  background-color: gold;
   position: fixed;
   top: 0;
   bottom: 1;
@@ -126,10 +126,23 @@
   height: fit-content;
 
 }
+#HomeText{
+  color: blue;
+}
+.PackageContainer{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 50px;
+}
 @media (max-width: 768px) {
   #packages {
     display: flex;
     flex-direction: column;
+  }
+  .PackageContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
   }
   .Player{
     width: 100%;

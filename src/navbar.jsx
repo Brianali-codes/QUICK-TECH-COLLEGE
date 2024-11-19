@@ -6,7 +6,7 @@ import { Button } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { useState } from 'react';
-
+import { Link } from 'react-router-dom';
 
 export default function Navbar(){
     
@@ -42,14 +42,14 @@ export default function Navbar(){
                             Services
                         </Dropdown.Toggle>
                         <Dropdown.Menu>
-                            <Dropdown.Item onClick={() => scrollToSection("PKGS")}>Packages</Dropdown.Item>
-                            <Dropdown.Item href="#/action-2">Programming</Dropdown.Item>
-                            <Dropdown.Item href="#/action-3">Consultation</Dropdown.Item>
+                            <Link to="/packages"><Button variant=''>Packages</Button></Link>
+                            <Link to="/programming"><Button variant=''>Programming</Button></Link>
+                            <Link to="/consultation"><Button variant=''>Consultation</Button></Link> 
                         </Dropdown.Menu>
                     </Dropdown>
-                    <Button variant="" onClick={() => scrollToSection("MainBg")}>About</Button>
-                    <Button variant="" onClick={() => scrollToSection("MainBg")}>Faqs</Button>
-                    <Button variant="" onClick={() => scrollToSection("MainBg")}>Contacts</Button>
+                    <Button variant="" onClick={() => scrollToSection("ABTUS")}>About</Button>
+                    <Button variant="" onClick={() => scrollToSection("FAQ")}>Faqs</Button>
+                    <Link to="/contact"><Button variant="">Contact</Button></Link>
                 </div>                
                 <FontAwesomeIcon icon={faBars} size='1x' id='Menu' onClick={checkCollapsed}/>
                 

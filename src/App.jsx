@@ -7,6 +7,8 @@ import Faqs from './faqs'
 import About from './about'
 import Quote from './quote'
 import Sources from './sources'
+import AboutUs from './aboutUs'
+
 
 function App() {
   return (
@@ -18,10 +20,12 @@ function App() {
       <br />
       <Packages/>
       <br />
+      <AboutUs/>
+      <br />
       <Quote/>
       <br />
       <Sources/>
-      <br />
+      <br/>
       <Faqs/>
       <br /><br />
       <Footer/>
