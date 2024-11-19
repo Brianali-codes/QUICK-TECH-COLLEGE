@@ -3,18 +3,18 @@ import { faInstagram, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg
 import { faFacebook } from '@fortawesome/free-brands-svg-icons';
 import LG from './assets/LOGO.svg'
 import './App.css';
+import { Link } from 'react-router-dom';
 
 
 export default function Footer(){
     return(
         <div className="flex flex-col justify-center bg-white" id='CONTS'>
-            <div className="justify-center gap-3 text-black" id='footerInfo'>
-                <button className='hover:text-orange-500'>QTC</button>
-                <button className='hover:text-orange-500'>About us</button>
-                <button className='hover:text-orange-500'>Contacts</button>
-                <button className='hover:text-orange-500'>Faqs</button>
-                <button className='hover:text-orange-500'>Privacy Policy</button>
-                <button className='hover:text-orange-500'>Terms of use</button>
+
+            <div className="justify-center items-center gap-3 text-black" id='footerInfo'>
+                <a href="#ABTUS"><button className='hover:text-orange-500'>About us</button></a>
+                <Link to="/contact"><button className='hover:text-orange-500'>Contacts</button></Link>
+                <a href="https://www.termsfeed.com/live/6615406e-351e-4fa0-8bdf-fa3ae04f7007" target='_blank'><button className='hover:text-orange-500'>Privacy Policy</button></a>
+                <a href="https://www.termsfeed.com/live/4b4d1b5d-f0ce-4fa4-9480-e74690395ec2" target='_blank'><button className='hover:text-orange-500'>Terms of use</button></a>
             </div>
             <br /><br />
             <hr />

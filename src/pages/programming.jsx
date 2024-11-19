@@ -16,15 +16,16 @@ import SD from '../assets/SD.webp'
 import MOB from '../assets/Mob.webp'
 import PTN from '../assets/python.webp'
 import CSS from '../assets/css.webp'
+import Nav2 from'../nav2.jsx'
 
 
 
 export default function Programs(){
     return(
         <>
-
+            <Nav2/>
             <div className="p-5 flex flex-col">
-                    <Link to="/"><p className='text-start text-black font-bold'>  Go Back</p></Link>
+                <br /><br />
                     <p className='text-center text-xl font-bold'>Programming languages and Courses.</p>
                     <br />
                     <div className="PackageContainer">

@@ -6,13 +6,15 @@ import Powerpoint from '../assets/powerpoint.webp'
 import { Button, Card } from 'react-bootstrap'
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom'
+import Nav2 from'../nav2.jsx'
 
 export default function Package(){
     return(
         <>
+            <Nav2/>
             <div className="p-5 flex flex-col">
-                <Link to="/"><p className='text-start'>  Go Back</p></Link>
-                <p className='text-center text-xl'>Packages</p>
+                <br /><br />
+                <p className='text-center text-xl font-bold'>Packages</p>
                 <br />
                 <div className="PackageContainer">
                 <motion.div

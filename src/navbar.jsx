@@ -49,7 +49,7 @@ export default function Navbar(){
                     </Dropdown>
                     <Button variant="" onClick={() => scrollToSection("ABTUS")}>About</Button>
                     <Button variant="" onClick={() => scrollToSection("FAQ")}>Faqs</Button>
-                    <Link to="/contact"><Button variant="">Contact</Button></Link>
+                    <Link to="/contact"><Button variant="">Contacts</Button></Link>
                 </div>                
                 <FontAwesomeIcon icon={faBars} size='1x' id='Menu' onClick={checkCollapsed}/>
                 
