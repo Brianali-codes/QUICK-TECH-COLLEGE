@@ -63,7 +63,7 @@ export default function Navbar(){
                         <Button variant="" onClick={() => {scrollToSection("MainBg");checkCollapsed()}}>Home</Button>
                         <Dropdown>
                             <Dropdown.Toggle variant="secondary" id="dropdown-basic">
-                                Services
+                                Services.
                             </Dropdown.Toggle>
                             <Dropdown.Menu>
                                 <Link to="/packages"><Button variant=''>Packages</Button></Link>
