@@ -186,6 +186,10 @@
     display: flex;
     flex-direction: column;
   }
+  .Logo{
+    width: 140px;
+    height: fit-content;
+  }
   .PackageContainer{
     display: flex;
     flex-direction: column;
