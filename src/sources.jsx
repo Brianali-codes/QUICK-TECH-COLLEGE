@@ -1,5 +1,5 @@
 import './App.css'
-
+import { motion } from 'framer-motion';
 
 export default function Sources(){
     return(
@@ -10,7 +10,12 @@ export default function Sources(){
             <br />
 
             <div id="VideoContainer">
-                <div className="video-wrapper">
+                <motion.div
+                            initial={{ opacity: 0, y: 30 }} // Starting position
+                            whileInView={{ opacity: 1, y: 0 }} // Ending position when in view
+                            transition={{ duration: 1 }} // Transition duration
+                            viewport={{ once: true }} // Animation happens only once when it comes into view
+                            className="video-wrapper">
                     <iframe
                         src="https://www.youtube.com/embed/pLnN3ooJcqw"
                         title="YouTube video"
@@ -19,8 +24,14 @@ export default function Sources(){
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowFullScreen
                     ></iframe>
-                </div>
-                <div className="video-wrapper">
+                </motion.div>
+
+                <motion.div
+                            initial={{ opacity: 0, y: 60 }} // Starting position
+                            whileInView={{ opacity: 1, y: 0 }} // Ending position when in view
+                            transition={{ duration: 1 }} // Transition duration
+                            viewport={{ once: true }} // Animation happens only once when it comes into view
+                            className="video-wrapper">
                     <iframe
                     className="Player"
                     src="https://www.youtube.com/embed/fiIaqAYPzFk"
@@ -29,7 +40,7 @@ export default function Sources(){
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen
                     ></iframe>
-                </div>
+                </motion.div>
 
             </div>
             <br /><br />
