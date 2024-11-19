@@ -8,7 +8,8 @@ import { Link } from 'react-router-dom';
 
 export default function Footer(){
     return(
-        <div className="flex flex-col justify-center bg-white" id='CONTS'>
+        <div className="flex flex-col justify-center p-1" id='CONTS'>
+            <br />
 
             <div className="justify-center items-center gap-3 text-black" id='footerInfo'>
                 <a href="#ABTUS"><button className='hover:text-orange-500'>About us</button></a>

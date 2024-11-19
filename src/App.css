@@ -11,6 +11,9 @@
   font-family: "Kanit", sans-serif;
 
 }
+#CONTS{
+  background-color: #fefce2;
+}
 .display{
   width:60vw;
   border-radius: 10px;
