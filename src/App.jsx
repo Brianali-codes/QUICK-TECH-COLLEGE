@@ -14,7 +14,7 @@ function App() {
   return (
     <>
       <Navbar/>
-      <br /><br /><br />
+      <p className='block text-transparent'>...</p>
       <Hero/>
       <About/>
       <br />

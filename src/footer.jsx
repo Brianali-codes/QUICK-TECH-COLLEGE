@@ -17,7 +17,8 @@ export default function Footer(){
                 <a href="https://www.termsfeed.com/live/6615406e-351e-4fa0-8bdf-fa3ae04f7007" target='_blank'><button className='hover:text-orange-500'>Privacy Policy</button></a>
                 <a href="https://www.termsfeed.com/live/4b4d1b5d-f0ce-4fa4-9480-e74690395ec2" target='_blank'><button className='hover:text-orange-500'>Terms of use</button></a>
             </div>
-            <br /><br />
+            <p className='block text-transparent'>...</p>
+            
             <hr />
             <div className="flex flex-row justify-between text-black p-3 m-3">
                 <div>

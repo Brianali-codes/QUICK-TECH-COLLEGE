@@ -24,7 +24,7 @@ export default function Programs(){
     return(
         <>
             <Nav2/>
-            <div className="p-5 flex flex-col">
+            <div className="p-5 flex flex-col" id='PkGs2'>
                 <p className='block text-transparent'>...</p>
                 <p className='block text-transparent'>...</p>
                     <p className='text-center text-xl font-bold'>Programming languages and Courses.</p>
@@ -340,6 +340,7 @@ export default function Programs(){
                 </div>
             </div>
             <Footer/>
+            <a href="#PkGs2"><button className="UptoTop">⏫</button></a>
         </>
     )
 }

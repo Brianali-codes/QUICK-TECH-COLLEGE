@@ -12,7 +12,7 @@ export default function Package(){
     return(
         <>
             <Nav2/>
-            <div className="p-5 flex flex-col">
+            <div className="p-5 flex flex-col" id='PkGs1'>
                 <p className='block text-transparent'>...</p>
                 <p className='block text-transparent'>...</p>
                 <p className='text-center text-xl font-bold'>Packages</p>
@@ -124,6 +124,7 @@ export default function Package(){
                 </div>
             </div>
             <Footer/>
+            <a href="#PkGs1"><button className="UptoTop">⏫</button></a>
         </>
     )
 }
