@@ -13,7 +13,8 @@ export default function Package(){
         <>
             <Nav2/>
             <div className="p-5 flex flex-col">
-                <br /><br />
+                <p className='block text-transparent'>...</p>
+                <p className='block text-transparent'>...</p>
                 <p className='text-center text-xl font-bold'>Packages</p>
                 <br />
                 <div className="PackageContainer">

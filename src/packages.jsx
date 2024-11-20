@@ -72,7 +72,7 @@ Take A look Below.</p>
                             <Card.Text className='Desc'>
                                 We offer more Services such as normal Cyber Cafe services and much much more.
                             </Card.Text>
-                            <Button variant="warning" className='Desc'>View Services.</Button>
+                            <Link to="/services"><Button variant="warning" className='Desc'>View Services.</Button></Link>
                         </Card.Body>
                     </Card>
                 </motion.div>

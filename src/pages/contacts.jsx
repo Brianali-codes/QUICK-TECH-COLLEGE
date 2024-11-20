@@ -5,7 +5,8 @@ export default function Contacts(){
     return(
         <>
             <Nav2/>
-            <br /><br />
+            <p className='block text-transparent'>...</p>
+            <p className='block text-transparent'>...</p>
             <div className="p-5 flex flex-col justify-center items-center gap-0">
 
                 <form action="https://formsubmit.co/quicktechcollege@gmail.com" method="POST" className='flex flex-col gap-1 justify-center items-center'>

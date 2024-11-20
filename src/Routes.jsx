@@ -5,6 +5,8 @@ import Programs from './pages/programming'; // Example page component
 import Contacts from './pages/contacts'; // Another example page
 import Consultation from './pages/consultation';
 import Packages from './pages/packages';
+import Service from './pages/services';
+
 
 function AppRoutes() {
   return (
@@ -16,6 +18,8 @@ function AppRoutes() {
         <Route path="/consultation" element={<Consultation/>} />
         <Route path="/packages" element={<Packages/>} />
         <Route path="/programming" element={<Programs/>} />
+        <Route path="/services" element={<Service/>} />
+
 
       </Routes>
     </Router>

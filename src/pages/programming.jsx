@@ -25,7 +25,8 @@ export default function Programs(){
         <>
             <Nav2/>
             <div className="p-5 flex flex-col">
-                <br /><br />
+                <p className='block text-transparent'>...</p>
+                <p className='block text-transparent'>...</p>
                     <p className='text-center text-xl font-bold'>Programming languages and Courses.</p>
                     <br />
                     <div className="PackageContainer">
