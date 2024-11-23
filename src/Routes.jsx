@@ -6,7 +6,7 @@ import Contacts from './pages/contacts'; // Another example page
 import Consultation from './pages/consultation';
 import Packages from './pages/packages';
 import Service from './pages/services';
-
+import Vacancies from './vacancies';
 
 function AppRoutes() {
   return (
@@ -19,6 +19,7 @@ function AppRoutes() {
         <Route path="/packages" element={<Packages/>} />
         <Route path="/programming" element={<Programs/>} />
         <Route path="/services" element={<Service/>} />
+        <Route path="/vacancies" element={<Vacancies/>} />
 
 
       </Routes>

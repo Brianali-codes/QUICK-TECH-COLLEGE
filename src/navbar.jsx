@@ -50,6 +50,7 @@ export default function Navbar(){
                     <Button variant="" onClick={() => scrollToSection("ABTUS")}>About</Button>
                     <Button variant="" onClick={() => scrollToSection("FAQ")}>Faqs</Button>
                     <Link to="/contact"><Button variant="">Contacts</Button></Link>
+                    <Link to="/vacancies"><Button variant="">Vacancies</Button></Link>
                 </div>                
                 <FontAwesomeIcon icon={faBars} size='1x' id='Menu' onClick={checkCollapsed}/>
                 
@@ -74,6 +75,7 @@ export default function Navbar(){
                         <Button variant="" onClick={() => {scrollToSection("ABTUS");checkCollapsed()}}>About</Button>
                         <Button variant="" onClick={() => {scrollToSection("FAQ");checkCollapsed()}}>Faqs</Button>
                         <Link to="/contact"><Button variant="" className='text-black'>Contacts</Button></Link>
+                        <Link to="/vacancies"><Button variant="">Vacancies</Button></Link>
                     </div>
 
                 </div>
