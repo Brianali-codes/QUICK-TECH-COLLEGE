@@ -190,6 +190,10 @@
   height: fit-content;
 
 }
+#JobContainer{
+  display: flex;
+  flex-direction: row;
+}
 #HomeText{
   color: blue;
 }
@@ -201,6 +205,9 @@
 @media (max-width: 768px) {
   #packages {
     display: flex;
+    flex-direction: column;
+  }
+  #JobContainer{
     flex-direction: column;
   }
   .UptoTop{

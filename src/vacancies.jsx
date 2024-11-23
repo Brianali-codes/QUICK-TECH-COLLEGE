@@ -15,7 +15,7 @@ export default function Vacancies(){
          <Nav2/>
          <br /><br /><br /><br /><br />
             <p className="Desc text-center">Apply For Jobs.</p>
-         <div className="p-5 flex flex-row gap-5">
+         <div className="p-5 gap-5" id="JobContainer">
             
             <motion.div
                             initial={{ opacity: 0, y: 20 }} // Starting position
