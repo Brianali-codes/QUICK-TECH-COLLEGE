@@ -29,7 +29,7 @@ export default function Vacancies(){
                             <Card.Title className='Desc'>Lecturer Full Time</Card.Title>
                                 <Card.Text className='Desc'>
                                         Apply Now for position of Lecturer Full time, We will get back to you as soon as possible.</Card.Text>
-                                <a href="https://forms.zohopublic.com/gamerfunky78gm1/form/JobApplication/formperma/ryJeMpxutcqbg4somk1Ym__algpRoDXcV5x1jzPucx4" target='_blank'><Button variant='primary'>Apply For Job</Button></a>
+                                <a href="https://forms.zohopublic.com/quicktechcollegegm1/form/JobApplication/formperma/m-9smw9HoM2VTr5U5CNuBErVpAF4w8ECFfjWYvqTZ3Q" target='_blank'><Button variant='primary'>Apply For Job</Button></a>
                             </Card.Body>
                         </Card>
             </motion.div>
@@ -46,7 +46,7 @@ export default function Vacancies(){
                             <Card.Title className='Desc'>Secretary.</Card.Title>
                                 <Card.Text className='Desc'>
                                 Apply Now for position of Secretary, We will get back to you as soon as possible. </Card.Text>
-                                <a href="https://forms.zohopublic.com/gamerfunky78gm1/form/JobApplication/formperma/ryJeMpxutcqbg4somk1Ym__algpRoDXcV5x1jzPucx4" target='_blank'><Button variant='primary'>Apply For Job</Button></a>
+                                <a href="https://forms.zohopublic.com/quicktechcollegegm1/form/JobApplication1/formperma/nw6hVDmYNY3KiT08SIA8v8Ffu06ic47BKGIQg75GOhA" target='_blank'><Button variant='primary'>Apply For Job</Button></a>
                             </Card.Body>
                         </Card>
             </motion.div>
