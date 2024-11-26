@@ -32,7 +32,7 @@ export default function Package(){
                                 Microsoft Word is a word processor program developed by Microsoft. It was first released on October 25, 1983,[13] under the name Multi-Tool Word for Xenix
                                 </Card.Text>
 
-                                <a href="https://calendly.com/brianali427/30min" target='_blank'><Button variant='primary'>Learn More</Button></a>
+                                <a href="https://calendly.com/quicktechcollege/15min" target='_blank'><Button variant='primary'>Learn More</Button></a>
                             </Card.Body>
                         </Card>
                     </motion.div><motion.div
@@ -48,7 +48,7 @@ export default function Package(){
                                 <Card.Text className='Desc'>
                                     Microsoft Access is a database management system that combines the relational Access Database Engine (ACE) with a graphical user interface and software-development tools. 
                                      </Card.Text>
-                                     <a href="https://calendly.com/brianali427/30min" target='_blank'><Button variant='primary'>Learn More</Button></a>
+                                     <a href="https://calendly.com/quicktechcollege/15min" target='_blank'><Button variant='primary'>Learn More</Button></a>
                             </Card.Body>
                         </Card>
                     </motion.div>
@@ -69,7 +69,7 @@ export default function Package(){
                                 Microsoft Excel is a spreadsheet editor developed by Microsoft It features calculation or computation capabilities graphing tools and much more.
                                     </Card.Text>
 
-                                    <a href="https://calendly.com/brianali427/30min" target='_blank'><Button variant='primary'>Learn More</Button></a>
+                                    <a href="https://calendly.com/quicktechcollege/15min" target='_blank'><Button variant='primary'>Learn More</Button></a>
                             </Card.Body>
                         </Card>
                     </motion.div><motion.div
@@ -86,7 +86,7 @@ export default function Package(){
                                 Microsoft Publisher is a desktop publishing application from Microsoft, differing from Microsoft Word in that the emphasis is placed on page layout and graphic design rather than text composition and proofreading.   
                                 </Card.Text>
 
-                                <a href="https://calendly.com/brianali427/30min" target='_blank'><Button variant='primary'>Learn More</Button></a>
+                                <a href="https://calendly.com/quicktechcollege/15min" target='_blank'><Button variant='primary'>Learn More</Button></a>
                             </Card.Body>
                         </Card>
                     </motion.div>
@@ -105,7 +105,7 @@ export default function Package(){
                                      Microsoft PowerPoint is a presentation program,PowerPoint was originally designed to provide visuals for group presentations within business organizations, but has come to be widely used in other communication situations in business and beyond.
                                 </Card.Text>
 
-                                <a href="https://calendly.com/brianali427/30min" target='_blank'><Button variant='primary'>Learn More</Button></a>
+                                <a href="https://calendly.com/quicktechcollege/15min" target='_blank'><Button variant='primary'>Learn More</Button></a>
                             </Card.Body>
                         </Card>
                     </motion.div>

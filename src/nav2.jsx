@@ -33,7 +33,7 @@ export default function Nav2(){
                     <img src={LG} alt="LOGO" className='Logo'/>
                 </div>
                 <div>
-                    <Link to="/"><Button variant="" onClick={() => scrollToSection("MainBg")}>Back</Button></Link>
+                    <Link to="/"><Button variant="warning" onClick={() => scrollToSection("MainBg")}>Back</Button></Link>
                 </div>                    
             </div>
 
