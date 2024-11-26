@@ -2,8 +2,8 @@ import Nav2 from "./nav2"
 import Footer from "./footer"
 import { Card } from "react-bootstrap"
 import { motion } from 'framer-motion';
-import Lec from './assets/Lec.jpg'
-import Sec from './assets/Sec.jpg'
+import Lec from './assets/Lec.webp'
+import Sec from './assets/Sec.webp'
 import { Button } from 'react-bootstrap'
 
 export default function Vacancies(){
@@ -45,7 +45,7 @@ export default function Vacancies(){
                             <Card.Body>
                             <Card.Title className='Desc'>Secretary.</Card.Title>
                                 <Card.Text className='Desc'>
-                                Apply Now for position of Secretary, We will get back to you as soon as possible. </Card.Text>
+                                Apply Now for position of Secretary, and We will get back to you as soon as possible. </Card.Text>
                                 <a href="https://forms.zohopublic.com/quicktechcollegegm1/form/JobApplication1/formperma/nw6hVDmYNY3KiT08SIA8v8Ffu06ic47BKGIQg75GOhA" target='_blank'><Button variant='primary'>Apply For Job</Button></a>
                             </Card.Body>
                         </Card>
