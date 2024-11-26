@@ -8,17 +8,20 @@ export default function Service(){
             <p className='block text-transparent'>...</p>
             <p className='block text-transparent'>...</p>
            <div className="p-5">
-            <p>At QuickCyber We Offer Services Such as:</p>
+            <p className="Desc">At QuickCyber We Offer Services Such as:</p>
                 
-                    <li>Photocopying.</li>
-                    <li>Printing.</li>
-                    <li>Kra Pin registration.</li>
-                    <li>Sha/Nssf insurances registration</li>
-                    <li>Music and Movie downloading.</li>
-                    <li>Good conduct,Birth Certificate and Visa Applications</li>
-                    <li>Green Cards Applications.</li>
+                    <li className="Desc">Photocopying.</li>
+                    <li className="Desc">Printing.</li>
+                    <li className="Desc">Kra Pin registration.</li>
+                    <li className="Desc">Sha/Nssf and other insurance registration</li>
+                    <li className="Desc">Music and Movie downloading.</li>
+                    <li className="Desc">Good conduct,Birth Certificate and Visa Applications</li>
+                    <li className="Desc">Green Cards Applications.</li>
+
+                    
                 
             </div>
+            <p className="Desc p-5">For More Info On Services contact us on 0712102014 or 0700844538</p>
 
             <Footer/>
         </>
