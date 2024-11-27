@@ -8,7 +8,7 @@ import About from './about'
 import Quote from './quote'
 import Sources from './sources'
 import AboutUs from './aboutUs'
-
+import Vision from './vision'
 
 function App() {
   return (
@@ -24,6 +24,7 @@ function App() {
       <br />
       <Quote/>
       <br />
+      <Vision/>
       <Sources/>
       <br/>
       <Faqs/>

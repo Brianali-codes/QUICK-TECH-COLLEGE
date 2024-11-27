@@ -1,11 +1,28 @@
 export default function AboutUs(){
     return(
-        <div className="p-5" id="ABTUS">
-            <p className="text-center Desc">About Us:</p>
-            <p className="Desc">QuickTech College is a small, independent institution dedicated to equipping learners with essential skills in programming languages and computer packages. Our mission is to empower individuals with practical, job-ready knowledge in the ever-evolving tech landscape. Alongside our comprehensive training programs, we also offer professional cyber café services, providing a hub for productivity and digital connectivity. At QuickTech College, we combine quality education with convenience, fostering a supportive environment for learners and the community alike.</p>
-            <p className="Desc">We Are located at Njiru Off Kangundo Road at the quickpark village plaza ground floor.</p>
-            <p className="Desc">For more info contact: 0712102014 or 0724382682.</p>
-        </div>
+
+        <>
+            <div className="p-5" id="ABTUS">
+                <p className="text-center Desc">About Us:</p>
+                <p className="Desc">QuickTech College is an institution which is established to primarily adress the skills development of young people within the ICT sector.</p>
+                <p className="Desc">Our Institution is well equpped with modern facilities and we ensure that our learners are ready to enter the market to offer ICT services.</p>
+                <p className="Desc">At Quick-Tech college, We are dedicated to shaping the leaders of tommorow. In our institution we want to build a legacy if academic excellence, innovation and community impact in the ICT sector with a wide array of undergraduate and postgraduate programs in ICT, We are commited to nurturing creativity,Critical thinking and a passion for life-long Learning.</p>
+            </div>
+
+            <div className="PopUp">
+                <div className="flex flex-col">
+                    <p className="Desc">INTAKE IN PROGRESS!</p>
+                    <p className="Desc">Contact us: Call,SMS or Whatsapp</p>
+                    <p className="Desc">Tel : +254712102014 or +254729835456</p>
+                </div>
+                
+            </div>
+        
+        
+        </>
+        
+
+        
 
     )
 }

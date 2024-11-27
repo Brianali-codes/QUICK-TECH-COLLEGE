@@ -25,7 +25,19 @@
   border-radius: 10px;
   height: 150px;
 }
-
+.INTAKE{
+  position: fixed;
+  width: 100%;
+  background-color: orange;
+  bottom: 0;
+  top: 1;
+  height: 50px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
 .BTNsend{
   width: 60vw;
   border:solid 1px black;
@@ -174,6 +186,18 @@
 }
 .Cards{
   transition:0.5s;
+  width: 100%;
+}
+.PopUp{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fefce2;
+  box-shadow: 2px 2px 2px 2px black;
+  width: 100%;
+  align-self: center;
+  height: 300px;
 }
 #VideoContainer{
   display: flex;

@@ -111,6 +111,26 @@ export default function Package(){
                     </motion.div>
                     
                 </div>
+
+                    <br />
+
+                <div>
+                    <p className='Desc'>More Packages include:</p>
+                    <li className='Desc'>Introduction To Computer</li>
+                    <li className='Desc'>Microsoft Windows</li>
+                    <li className='Desc'>Computerized Speed typing</li>
+                    <li className='Desc'>Microsoft Excel</li>
+                    <li className='Desc'>Internet, Email, Google, Zoom, etc.</li>
+                    <li className='Desc'>Formating Skills</li>
+                    <li className='Desc'>Pc troubleshooting</li>
+                    <li className='Desc'>Scanning,Printing and photocopying.</li>
+                </div>
+
+<br />
+
+                <div>
+                    <p className='Desc'>Get Computer Packages All at a fee of <span className='text-blue-500 text-lg'>ksh 4,500/= </span></p>
+                </div>
             </div>
             <Footer/>
             <a href="#PkGs1"><button className="UptoTop">⏫</button></a>

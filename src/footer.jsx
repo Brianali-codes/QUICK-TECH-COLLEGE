@@ -36,6 +36,8 @@ export default function Footer(){
                     <p>Copyright © 2021. All rights reserved</p>
             </div>
 
+            
+
         </div>
     )
 }
