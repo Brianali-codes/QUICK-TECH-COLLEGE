@@ -17,7 +17,7 @@ export default function Contacts(){
                     <br />
                     <input type="email" name="email" required placeholder='Email...' className='display'/>
                     <br />
-                    <input type="text" className='display2' placeholder='Message...'/>
+                    <input type="text" name="message" className='display2' placeholder='Message...'/>
                     <br />
                     <button className='BTNsend' type="submit">Send.</button>
                     
