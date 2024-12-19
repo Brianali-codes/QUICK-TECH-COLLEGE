@@ -9,14 +9,7 @@ export default function AboutUs(){
                 <p className="Desc">At Quick-Tech college, We are dedicated to shaping the leaders of tommorow. In our institution we want to build a legacy if academic excellence, innovation and community impact in the ICT sector with a wide array of undergraduate and postgraduate programs in ICT, We are commited to nurturing creativity,Critical thinking and a passion for life-long Learning.</p>
             </div>
 
-            <div className="PopUp">
-                <div className="flex flex-col">
-                    <p className="Desc">INTAKE IN PROGRESS!</p>
-                    <p className="Desc">Contact us: Call,SMS or Whatsapp</p>
-                    <p className="Desc">Tel : +254712102014 or +254729835456</p>
-                </div>
-                
-            </div>
+            
         
         
         </>
