@@ -3,7 +3,7 @@ import { Accordion } from "react-bootstrap"
 export default function Faqs(){
     return(
 
-        <div className="p-5 flex flex-col" id="FAQ">
+        <div className="p-3 flex flex-col" id="FAQ">
             <p className="text-center font-bold">Frequently Asked Questions.</p>
             <br />
             <Accordion>

@@ -11,7 +11,7 @@ export default function Packages(){
         return(
 
             <>
-            <div className='p-5' id='PKGS'>
+            <div className='p-4' id='PKGS'>
                 <p className='text-center font-bold text-xl'>Some Services we Offer include.</p>
                 <p className='Desc'>Our Services
 At Quick-Tech College, we offer a range of courses designed to build your tech skills:
@@ -80,7 +80,7 @@ Take A look Below.</p>
             </div>
             <br />
             
-            <div className='p-5'>
+            <div className='p-3'>
                 <p className='Desc'>Take the next step in your tech journey with us and unlock a world of opportunities. Whether you're looking to build dynamic websites, master versatile programming languages, or enhance your computer skills with essential packages, our courses are tailored to help you achieve your goals and thrive in the ever-evolving tech industry."</p>
             </div>
            

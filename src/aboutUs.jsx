@@ -2,7 +2,7 @@ export default function AboutUs(){
     return(
 
         <>
-            <div className="p-5" id="ABTUS">
+            <div className="p-3" id="ABTUS">
                 <p className="text-center Desc">About Us:</p>
                 <p className="Desc">QuickTech College is an institution which is established to primarily adress the skills development of young people within the ICT sector.</p>
                 <p className="Desc">Our Institution is well equpped with modern facilities and we ensure that our learners are ready to enter the market to offer ICT services.</p>

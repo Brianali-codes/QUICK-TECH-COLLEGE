@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 export default function About(){
 
     return( 
-        <div className="p-10 bg-orange-500" id="ABTBG">
+        <div className="p-5 bg-orange-500" id="ABTBG">
             <br /><br /><br /><br />
             <motion.p 
                     initial={{ opacity: 0, y: 20 }} // Starting position

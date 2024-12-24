@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 export default function Sources(){
     return(
-        <section className="video-section p-5">
+        <section className="video-section p-3">
             <h3 className="Desc text-center">Some Sources to get you started</h3>
             <br />
             <p className='Desc'>Begin your learning journey with our curated videos designed to introduce you to the world of computers. The first video covers the fundamentals of computer basics, including how hardware and software work together to perform everyday tasks. The second video focuses on mastering essential computer packages, offering practical guidance on tools like Microsoft Office to boost your productivity and professional skills. These resources provide the perfect starting point for building your tech expertise.</p>
