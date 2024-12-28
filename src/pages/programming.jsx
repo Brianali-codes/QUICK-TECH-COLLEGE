@@ -17,7 +17,7 @@ import PTN from '../assets/python.webp'
 import CSS from '../assets/css.webp'
 import Nav2 from'../nav2.jsx'
 import Footer from '../footer.jsx';
-import NET from '../assets/NET.jpg'
+import NET from '../assets/NET.webp'
 import WPS from '../assets/WPS.webp'
 
 

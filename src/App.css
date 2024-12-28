@@ -169,6 +169,9 @@
 #root{
   background-color: #fefce2;
 }
+#main{
+  background-color: #fefce2;
+}
 #GlassmorphismBg{
     display: flex;
     flex-direction: column;
