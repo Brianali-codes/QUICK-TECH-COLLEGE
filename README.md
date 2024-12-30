@@ -33,6 +33,7 @@ Currently, two official plugins are available:
 
 @vitejs/plugin-react uses Babel for Fast Refresh
 @vitejs/plugin-react-swc uses SWC for Fast Refresh
+
 THIS PROJECT WILL SOON BE SET TO PRIVATE DUE TO PRIVACY POLICIES REGARDING THE SITE OWNER.
 
 
