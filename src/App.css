@@ -8,6 +8,9 @@
   font-family: "Kanit", sans-serif;
   font-size: 20px;
 }
+body::-webkit-scrollbar {
+  display: none; 
+}
 .Desc{
   font-family: "Kanit", sans-serif;
 
