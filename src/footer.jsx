@@ -33,7 +33,7 @@ export default function Footer(){
                 
             </div>
             <div className='text-black text-center'>
-                    <p>Copyright © 2021. All rights reserved</p>
+                    <p>Copyright © 2025. All rights reserved</p>
             </div>
 
             
