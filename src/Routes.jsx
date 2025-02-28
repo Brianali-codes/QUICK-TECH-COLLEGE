@@ -7,10 +7,12 @@ import Consultation from './pages/consultation';
 import Packages from './pages/packages';
 import Service from './pages/services';
 import Vacancies from './vacancies';
+import ScrollToTop from './scrollToTop';
 
 function AppRoutes() {
   return (
     <Router>
+      <ScrollToTop />
       <Routes>
         {/* Define the routes */}
         <Route path="/" element={<App />} /> {/* App as your main/home component */}
